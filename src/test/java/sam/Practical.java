@@ -1,9 +1,12 @@
 package sam;
 
-public class Practical {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Practical {
+@Test
+	public void display(){
+		System.out.println("Hi");
+		System.out.println("Good morning");
 
 	}
 
